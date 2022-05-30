@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shedule</title>
+    <link rel="stylesheet" href="shedule.css">
+</head>
+<body>
+    <section class="section_shedule">
+     <div class="container">
+         <h1>Расписание</h1>
+        <div class="ned">
+            <p>День недели:</p> <select name="week" id="week">
+            <option value="Понедельник">Понедельник</option>
+            <option value="Вторник">Вторник</option>
+            <option value="Среда">Среда</option>
+            <option value="Четверг">Четверг</option>
+            <option value="Пятница">Пятница</option>
+            <option value="Суббота">Суббота</option>
+            <option value=Воскресенье>Воскресенье</option>
+        </select>
+        </div>
+         <div class="time">
+             <p>Время</p>
+             <select name="time" id="time">
+                 <option value="01:00">01:00</option>
+                 <option value="02:00">02:00</option>
+                 <option value="03:00">03:00</option>
+                 <option value="04:00">04:00</option>
+                 <option value="05:00">05:00</option>
+                 <option value="06:00">06:00</option>
+                 <option value="07:00">07:00</option>
+                 <option value="08:00">08:00</option>
+             </select>
+         </div>
+         <div class="prioritet">
+             <p>Приоритет</p>
+             <select  id="global">
+                 <option value="не важный">не важный</option>
+                 <option value="важный">важный</option>
+                 <option value="Очень важный">очень важный</option>
+             </select>
+         </div>
+         <div class="nameLesson">
+             <input type="text" placeholder="Напишите название урока....." id="kind">
+         </div>
+       <div class="buttons">
+           <button class="addBtn" id="addBtn">Добавить</button>
+           <button class="showBtn" id="showBtn">Показать расписание</button>
+       </div>
+     </div>
+        <div class="work" id="work">
+
+        </div>
+    </section>
+    <script src="shedule.js"></script>
+</body>
+</html>

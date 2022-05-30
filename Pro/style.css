@@ -1,0 +1,319 @@
+.header {
+    background: url("img/hero-bg.jpg") center top no-repeat;
+    height: 850px;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+
+}
+
+nav {
+    background: #fff;
+    z-index: 2;
+    height: 100px;
+}
+
+.navbar-nav {
+    align-items: center;
+    background: #fff;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-item:nth-child(1) {
+    margin: 0 20px;
+}
+
+.navbar-nav .nav-item:nth-child(2) {
+    margin: 0 20px;
+}
+
+.navbar-nav .nav-item:nth-child(3) {
+    margin: 0 20px;
+}
+
+.navbar-nav .nav-item:nth-child(4) {
+    margin: 0 20px;
+}
+
+.navbar-nav .nav-item:nth-child(5) {
+    margin: 0 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #262627;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-item:hover {
+    color: #000000;
+    background: #fcff18;
+    transition: 0.4s ease-out;
+}
+
+.map {
+    background: #fcff18;
+    height: 100px;
+
+}
+
+.map p {
+    font-size: 16px;
+    line-height: 15px;
+    margin: 20px 0;
+}
+
+.map img {
+    margin: auto 0;
+}
+
+.global-text {
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    transform: translate(-30%, 0);
+    left: 40%;
+    top: 300px;
+    z-index: 1;
+    word-spacing: 0.2em;
+    font-weight: 700;
+    font-size: calc(25px + 50 * (100vw / 1920));
+}
+
+.global-text span {
+    color: #fcff18;
+}
+
+.join-btn {
+    background: #fcff18;
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 18px;
+    font-weight: 700;
+    border: 0;
+}
+
+.join-btn:hover {
+    background: #ffff8e;
+}
+
+/*----------------------first section--------------------------------*/
+
+.second-text h1 {
+    text-align: center;
+    margin-top: 150px;
+}
+.second-text h1 span {
+    background: #fcff18;
+}
+.icons {
+    width: 100px;
+    height: 100px;
+    border: 1px black solid;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 50px;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+.cards .col-4 {
+    max-width: 350px;
+    min-width: 320px;
+}
+.cards .col-4 p {
+    font-weight: 500;
+}
+/*second section-----------------------------------------*/
+.second-section {
+    background: url("img/add-bg.jpg") no-repeat;
+    height: 600px;
+}
+.second-section h2 {
+    color: white;
+    font-size: calc(24px + 30 * (100vw / 1920));
+    font-weight: 700;
+    margin-top: 150px;
+}
+.second-section h2 span {
+    color: #fcff18;
+}
+.second-section .Discount {
+    list-style-type: none;
+    color: white;
+    font-size: calc(18px + 4 * (100vw / 1920));
+    font-weight: 500;
+    margin-top: 20px;
+}
+.second-section .Discount li:before {
+    content: "\f058";
+    font-family: 'FontAwesome';
+    color: #fcff18;
+    margin-left: -30px;
+    margin-right: 10px;
+}
+.second-button {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #fcff18;
+    border: 0;
+}
+/*third section--------------------------------*/
+.third-section {
+    background:  #e7eaeb;
+}
+.third-section .container {
+    padding: 60px 0;
+    flex-wrap: wrap;
+}
+
+.third-section .happy {
+    max-width: 180px;
+    min-width: 170px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.third-section .happy .num {
+    font-size: 38px;
+    font-weight: 700;
+    width: 100%;
+    height: 60px;
+    background: #fcff18;
+    line-height: 60px;
+}
+.third-section .happy p {
+    font-size: 18px;
+    font-weight: 500;
+}
+/*trainers section-----------------*/
+.trainers-section {
+
+}
+.trainers-section .third-text {
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: calc(30px + 20 * (100vw / 1920));
+}
+.trainers-section .third-text span {
+    background: #fcff18;
+}
+.trainers-section .row {
+    margin: 50px 0;
+
+}
+.trainers .trainer {
+    max-width: 250px;
+    min-width: 200px;
+}
+.trainers img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+ .trainer p {
+     font-size: calc(12px + 2 * (100vw / 1920));
+     font-weight: 500;
+ }
+/* footer section-------------------------------------------*/
+.footer {
+    background: url("img/hero-bg.jpg")bottom center no-repeat;
+    height: 400px;
+}
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 70px;
+}
+.footer-row .col-3 {
+    margin-top: 10px;
+    max-width: 250px;
+    min-width: 200px;
+}
+.footer-row .col-3 h2 {
+    color: white;
+    font-size: calc(14px + 10 * (100vw / 1920));
+}
+.footer-row .col-3 p {
+    color: #999;
+    font-weight: 500;
+    font-size: calc(12px + 4 * (100vw / 1920));
+}
+.foot {
+    display: flex;
+}
+.foot img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+/*pop up style --------------------------------*/
+
+.btn_pop_up {
+    margin-top: 150px;
+    width: 50px;
+    height: 45px;
+    background: rgba(252, 255, 24, 0.7);
+    line-height: 45px;
+    font-weight: 900;
+    position: relative;
+    right: -100%;
+    cursor: pointer;
+
+}
+.btn_pop_up_close {
+    margin-top: -45px;
+    width: 50px;
+    height: 45px;
+    background: rgba(252, 255, 24, 0.7);
+    line-height: 45px;
+    font-weight: 900;
+    position: relative;
+    cursor: pointer;
+}
+.btn_pop_up a:hover {
+    color: black;
+    font-weight: 900;
+    transition: 0.4s ease-out;
+}
+.pop_up_body {
+    width: 300px;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    height: 750px;
+    padding-top: 100px;
+    transform: translateX(-300px);
+    transition: 1s ease-in-out;
+}
+.red  {
+    width: 150px;
+    height: 50px;
+    background: red;
+    margin: auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.size_text {
+    width: 150px;
+    height: 50px;
+    border: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+.active {
+    transform: translateX(0px);
+}
+.color {
+    background: red;
+}
